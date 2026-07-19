@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nova Rane — Product &amp; Interface Designer</title>
+<meta name="description" content="Portfolio of Nova Rane, a product and interface designer who builds interfaces like instruments — precise, responsive, built to be felt.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ===== NAV ===== -->
+<header class="topbar">
+  <a href="#" class="brand">
+    <span class="brand-mark" aria-hidden="true">
+      <span class="led led-a"></span><span class="led led-b"></span><span class="led led-c"></span>
+    </span>
+    NOVA&nbsp;RANE
+  </a>
+  <nav class="nav" id="siteNav">
+    <a href="#work">Work</a>
+    <a href="#process">Process</a>
+    <a href="#panel">Skills</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">PRODUCT &amp; INTERFACE DESIGN — BENGALURU / REMOTE</p>
+        <h1>Interfaces,<br>tuned&nbsp;like<br><span class="accent-text">instruments.</span></h1>
+        <p class="hero-lede">I design software that responds the way it should — every click, fade, and state change calibrated on purpose. Six years turning messy enterprise workflows into interfaces people actually enjoy operating.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View selected work</a>
+          <a href="#contact" class="btn btn-ghost">Start a project</a>
+        </div>
+      </div>
+
+      <div class="hero-console" aria-hidden="true">
+        <div class="console-head">
+          <span class="console-label">MASTER CHANNEL</span>
+          <span class="console-status"><i class="led-dot"></i>LIVE</span>
+        </div>
+        <div class="meters" id="heroMeters">
+          <div class="meter"><div class="meter-fill" data-level="86"></div></div>
+          <div class="meter"><div class="meter-fill" data-level="63"></div></div>
+          <div class="meter"><div class="meter-fill" data-level="92"></div></div>
+          <div class="meter"><div class="meter-fill" data-level="47"></div></div>
+          <div class="meter"><div class="meter-fill" data-level="74"></div></div>
+          <div class="meter"><div class="meter-fill" data-level="58"></div></div>
+        </div>
+        <div class="console-readout">
+          <span>UX RESEARCH</span><span>SYSTEMS</span><span>MOTION</span><span>A11Y</span><span>PROTOTYPE</span><span>FRONTEND</span>
+        </div>
+        <div class="console-dials">
+          <div class="dial" style="--rot: -35deg;"><div class="dial-knob"></div><span>CLARITY</span></div>
+          <div class="dial" style="--rot: 60deg;"><div class="dial-knob"></div><span>TRUST</span></div>
+          <div class="dial" style="--rot: 15deg;"><div class="dial-knob"></div><span>DELIGHT</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WORK ===== -->
+  <section id="work" class="work">
+    <div class="section-head">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>Four channels, four problems worth solving.</h2>
+    </div>
+
+    <div class="channel-rack">
+
+      <article class="channel">
+        <div class="channel-id">CH.01</div>
+        <div class="channel-body">
+          <div class="channel-thumb thumb-01" aria-hidden="true">
+            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#151A26"/>
+              <g stroke="#FFC24B" stroke-width="2" fill="none" opacity="0.9">
+                <rect x="40" y="50" width="150" height="90" rx="6"/>
+                <rect x="210" y="50" width="150" height="40" rx="6"/>
+                <rect x="210" y="100" width="70" height="40" rx="6"/>
+                <rect x="290" y="100" width="70" height="40" rx="6"/>
+                <line x1="40" y1="170" x2="360" y2="170"/>
+                <rect x="40" y="190" width="90" height="14" rx="3"/>
+                <rect x="150" y="190" width="60" height="14" rx="3"/>
+                <rect x="230" y="190" width="130" height="14" rx="3"/>
+              </g>
+              <circle cx="200" cy="240" r="3" fill="#2DE0C6"/>
+              <circle cx="215" cy="240" r="3" fill="#2DE0C6" opacity="0.5"/>
+              <circle cx="230" cy="240" r="3" fill="#2DE0C6" opacity="0.25"/>
+            </svg>
+          </div>
+          <div class="channel-info">
+            <span class="channel-tag">Enterprise · Data platform</span>
+            <h3>Redesigning the control room for a logistics fleet operator</h3>
+            <p>Dispatchers were tracking 400+ vehicles across six disconnected screens. I consolidated fleet status, routing, and exceptions into one live command surface — cutting time-to-decision on delivery exceptions from 4 minutes to 40 seconds.</p>
+            <ul class="channel-stats">
+              <li><strong>−83%</strong><span>time to resolve exceptions</span></li>
+              <li><strong>6→1</strong><span>screens consolidated</span></li>
+              <li><strong>140+</strong><span>dispatchers onboarded</span></li>
+            </ul>
+            <div class="channel-tools"><span>Discovery</span><span>Systems design</span><span>Prototyping</span><span>Usability testing</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="channel">
+        <div class="channel-id">CH.02</div>
+        <div class="channel-body">
+          <div class="channel-thumb thumb-02" aria-hidden="true">
+            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#151A26"/>
+              <g stroke="#2DE0C6" stroke-width="2" fill="none">
+                <circle cx="200" cy="130" r="60"/>
+                <circle cx="200" cy="130" r="30"/>
+                <line x1="200" y1="70" x2="200" y2="40"/>
+                <line x1="200" y1="190" x2="200" y2="220"/>
+                <line x1="140" y1="130" x2="110" y2="130"/>
+                <line x1="260" y1="130" x2="290" y2="130"/>
+              </g>
+              <rect x="60" y="230" width="280" height="14" rx="3" stroke="#FFC24B" fill="none" stroke-width="2"/>
+              <rect x="60" y="230" width="190" height="14" rx="3" fill="#FFC24B" opacity="0.6"/>
+            </svg>
+          </div>
+          <div class="channel-info">
+            <span class="channel-tag">Fintech · Mobile</span>
+            <h3>A savings app for people who've never trusted savings apps</h3>
+            <p>First-time investors in tier-2 cities were dropping off at KYC. I rebuilt onboarding around plain language, progressive disclosure, and a trust ladder that explains every fee before it's charged — completion rose from 34% to 71%.</p>
+            <ul class="channel-stats">
+              <li><strong>+109%</strong><span>onboarding completion</span></li>
+              <li><strong>4.7★</strong><span>store rating, up from 3.2</span></li>
+              <li><strong>12</strong><span>languages localized</span></li>
+            </ul>
+            <div class="channel-tools"><span>Research</span><span>Content design</span><span>Design system</span><span>A/B testing</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="channel">
+        <div class="channel-id">CH.03</div>
+        <div class="channel-body">
+          <div class="channel-thumb thumb-03" aria-hidden="true">
+            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#151A26"/>
+              <g stroke="#FF6F5B" stroke-width="2" fill="none">
+                <rect x="60" y="60" width="80" height="80" rx="10"/>
+                <rect x="170" y="60" width="80" height="80" rx="10"/>
+                <rect x="280" y="60" width="60" height="80" rx="10"/>
+                <path d="M140 100 H170 M250 100 H280" stroke-dasharray="4 4"/>
+              </g>
+              <rect x="60" y="180" width="280" height="60" rx="8" stroke="#2DE0C6" stroke-width="2" fill="none"/>
+              <line x1="80" y1="200" x2="320" y2="200" stroke="#2DE0C6" stroke-width="1" opacity="0.5"/>
+              <line x1="80" y1="215" x2="260" y2="215" stroke="#2DE0C6" stroke-width="1" opacity="0.5"/>
+            </svg>
+          </div>
+          <div class="channel-info">
+            <span class="channel-tag">Design systems · B2B SaaS</span>
+            <h3>A design system that three product teams actually adopted</h3>
+            <p>Three squads were each rebuilding the same dropdown. I ran audits across 40 screens, built a token-based component library in Figma and code, and paired it with contribution rules so it wouldn't drift — 92% component adoption within two quarters.</p>
+            <ul class="channel-stats">
+              <li><strong>92%</strong><span>component adoption</span></li>
+              <li><strong>60%</strong><span>faster feature shipping</span></li>
+              <li><strong>3 teams</strong><span>unified on one system</span></li>
+            </ul>
+            <div class="channel-tools"><span>Audit</span><span>Token architecture</span><span>Documentation</span><span>Governance</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="channel">
+        <div class="channel-id">CH.04</div>
+        <div class="channel-body">
+          <div class="channel-thumb thumb-04" aria-hidden="true">
+            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" fill="#151A26"/>
+              <g stroke="#FFC24B" stroke-width="2" fill="none">
+                <path d="M60 220 L120 140 L180 190 L240 90 L300 160 L340 110"/>
+              </g>
+              <g fill="#2DE0C6">
+                <circle cx="60" cy="220" r="4"/><circle cx="120" cy="140" r="4"/>
+                <circle cx="180" cy="190" r="4"/><circle cx="240" cy="90" r="4"/>
+                <circle cx="300" cy="160" r="4"/><circle cx="340" cy="110" r="4"/>
+              </g>
+            </svg>
+          </div>
+          <div class="channel-info">
+            <span class="channel-tag">Accessibility · Healthcare</span>
+            <h3>Making a clinician dashboard usable at 2am, one-handed, low light</h3>
+            <p>Nurses were misreading vitals thresholds during night shifts. I redesigned the alert hierarchy around contrast, motion, and touch-target size for exhausted users under real clinical conditions — critical-alert acknowledgment time dropped by 58%.</p>
+            <ul class="channel-stats">
+              <li><strong>−58%</strong><span>alert acknowledgment time</span></li>
+              <li><strong>WCAG AAA</strong><span>contrast compliance</span></li>
+              <li><strong>0</strong><span>missed-critical incidents post-launch</span></li>
+            </ul>
+            <div class="channel-tools"><span>Field research</span><span>Accessibility audit</span><span>Prototyping</span><span>Clinical review</span></div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section id="process" class="process">
+    <div class="section-head">
+      <p class="eyebrow">HOW I WORK</p>
+      <h2>Four stages, played in order — every time.</h2>
+    </div>
+    <div class="process-strip">
+      <div class="process-step">
+        <span class="step-switch"></span>
+        <h3>01 · Listen</h3>
+        <p>Sit with the people who use the thing daily before touching a single screen. Interviews, shadowing, support-ticket archaeology.</p>
+      </div>
+      <div class="process-step">
+        <span class="step-switch"></span>
+        <h3>02 · Frame</h3>
+        <p>Turn what I heard into a problem worth solving — not a feature list. Flows, IA, and the constraints that actually matter get written down.</p>
+      </div>
+      <div class="process-step">
+        <span class="step-switch"></span>
+        <h3>03 · Build</h3>
+        <p>Prototype in fidelity that matches the risk. Cheap and rough for direction, pixel-true for the moments that decide trust.</p>
+      </div>
+      <div class="process-step">
+        <span class="step-switch"></span>
+        <h3>04 · Prove</h3>
+        <p>Test with real users, instrument what shipped, and come back to the numbers. Design isn't done at handoff.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS PANEL ===== -->
+  <section id="panel" class="skills-panel">
+    <div class="section-head">
+      <p class="eyebrow">THE PANEL</p>
+      <h2>Where the levels sit.</h2>
+    </div>
+    <div class="dial-rack">
+      <div class="dial-unit"><div class="ring" style="--pct:92"><span>92</span></div><p>Interaction &amp; UX design</p></div>
+      <div class="dial-unit"><div class="ring" style="--pct:88"><span>88</span></div><p>Design systems</p></div>
+      <div class="dial-unit"><div class="ring" style="--pct:75"><span>75</span></div><p>User research</p></div>
+      <div class="dial-unit"><div class="ring" style="--pct:70"><span>70</span></div><p>Front-end (HTML/CSS/JS)</p></div>
+      <div class="dial-unit"><div class="ring" style="--pct:65"><span>65</span></div><p>Motion &amp; prototyping</p></div>
+      <div class="dial-unit"><div class="ring" style="--pct:80"><span>80</span></div><p>Accessibility (WCAG)</p></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about">
+    <div class="about-grid">
+      <div class="about-copy">
+        <p class="eyebrow">ABOUT</p>
+        <h2>I studied engineering before design — it still shows.</h2>
+        <p>I started in mechanical engineering, which is probably why I still think of interfaces as systems with tolerances: every screen has a load it needs to carry, and a failure mode when it's pushed too far. I moved into UX in 2019 and have spent the years since working mostly on dense, high-stakes software — logistics, fintech, clinical tools — where the job isn't decoration, it's making complexity survivable.</p>
+        <p>Outside of client work I mentor early-career designers through a local design collective, and I keep a small archive of bad interfaces I photograph in the wild — ATMs, parking meters, hospital kiosks — as a reminder of what happens when no one owned the experience.</p>
+        <a href="#" class="btn btn-ghost">Download résumé (PDF)</a>
+      </div>
+      <dl class="spec-sheet">
+        <div><dt>ROLE</dt><dd>Senior Product Designer</dd></div>
+        <div><dt>BASED</dt><dd>Bengaluru, India</dd></div>
+        <div><dt>AVAILABLE</dt><dd>Freelance &amp; contract, Q4 2026</dd></div>
+        <div><dt>TOOLS</dt><dd>Figma, Framer, Origami, React</dd></div>
+        <div><dt>FOCUS</dt><dd>Systems, accessibility, dense UI</dd></div>
+        <div><dt>EXPERIENCE</dt><dd>6 years</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact">
+    <div class="contact-panel">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Have a problem worth tuning?</h2>
+      <p class="contact-lede">Tell me what's broken and who it's breaking for. I reply within two business days.</p>
+      <form class="contact-form" id="contactForm">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="message">What are you working on?</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+      <div class="contact-ports">
+        <a href="mailto:hello@novarane.design" class="port"><span class="port-jack"></span>Email</a>
+        <a href="https://linkedin.com" class="port" target="_blank" rel="noopener"><span class="port-jack"></span>LinkedIn</a>
+        <a href="https://dribbble.com" class="port" target="_blank" rel="noopener"><span class="port-jack"></span>Dribbble</a>
+        <a href="https://github.com" class="port" target="_blank" rel="noopener"><span class="port-jack"></span>GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> Nova Rane. Built by hand, not a template.</span>
+  <a href="#" class="to-top">Back to top ↑</a>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
